@@ -1,7 +1,12 @@
 import { StatusBar } from "expo-status-bar";
-import Home from "./src/pages/home/home";
+import React from "react";
+import Routes from "./src/services/routes";
 
 export default function App() {
-  return <Home />;
-  // StatusBar (tem que fazer ela hidden)
+  return (
+    <>
+      <Routes />
+      <StatusBar hidden={true} />
+    </>
+  );
 }

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <ScrollView style={{ backgroundColor: "white" }}>
       <Header></Header>
-      <Body></Body>
+      <Body ></Body>
     </ScrollView>
   );
 }
